@@ -667,7 +667,7 @@
                                     <div class="rush-group-logo">
                                         <img src="{{ asset('assets/images/about/about-rush-2-homes-uae-logo.png') }}"
                                             alt="Rush Holdings group">
-                                        <span>RUSH 2 HOMES UAE (PRIVATE) LTD</span>
+                                        <span>RUSH 2 HOMES (PRIVATE) LTD</span>
                                     </div>
                                     <div class="rush-group-logo">
                                         <img src="{{ asset('assets/images/about/about-rush-house.png') }}"
