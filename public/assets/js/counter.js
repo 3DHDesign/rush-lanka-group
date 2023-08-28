@@ -1,0 +1,1 @@
+!function(t){"use strict";t(window).on("elementor/frontend/init",(function(){elementorFrontend.hooks.addAction("frontend/element_ready/prooty_elementor_counter.default",(function(){t(".ova-counter").appear((function(){var n=t(this).attr("data-count"),e=t(this).closest(".ova-counter").find(".odometer");setTimeout((function(){e.html(n)}),500)}))}))}))}(jQuery);
