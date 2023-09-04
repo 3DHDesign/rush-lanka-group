@@ -23,6 +23,7 @@
 
                                         <a href="tel:{{ $general->telephone }}" title="telephone">
                                             <li class="item">
+                                                +94
                                                 {{ substr($general->telephone, 0, 2) . ' ' . substr($general->telephone, 2, 3) . ' ' . substr($general->telephone, 5) }}
                                             </li>
                                         </a>
