@@ -4,7 +4,8 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-return new class extends Migration {
+return new class extends Migration
+{
     /**
      * Run the migrations.
      *
@@ -14,8 +15,8 @@ return new class extends Migration {
     {
         Schema::create('documents', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->longText('e_brochure');
-            $table->longText('coc');
+            $table->longText('e_brochure')->nullable();
+            $table->longText('coc')->nullable();
             $table->unsignedBigInteger('project_id');
 
             $table->timestamps();

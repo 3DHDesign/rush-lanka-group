@@ -64,11 +64,9 @@ class DocumentResource extends Resource
                                             ->reactive(),
 
                                         FileUpload::make('e_brochure')
-                                            ->required()
                                             ->label('E - Brochure document'),
 
                                         FileUpload::make('coc')
-                                            ->required()
                                             ->label('COC document'),
 
                                     ]),
