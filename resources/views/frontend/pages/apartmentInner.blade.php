@@ -575,19 +575,6 @@
 
                         </li>
 
-                        <li class="item item-1">
-
-                            <span class="value">
-                                {{ $project->garages }}
-                            </span>
-
-                            <span class="label">
-                                Number of Garages
-                            </span>
-
-
-                        </li>
-
                     </ul>
 
 
@@ -709,8 +696,8 @@
                         </section>
 
                         <section
-                            class="elementor-section elementor-top-section elementor-element elementor-element-9f65b7d elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" id="virtual-tour"
-                            data-id="9f65b7d" data-element_type="section"
+                            class="elementor-section elementor-top-section elementor-element elementor-element-9f65b7d elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                            id="virtual-tour" data-id="9f65b7d" data-element_type="section"
                             data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}"
                             style="width: 1399px; left: 0px;">
                             <div class="elementor-container elementor-column-gap-default">
