@@ -549,7 +549,9 @@
                                             <ul class="sub-menu" style="display: flex; flex-direction: row;">
                                                 <ul class="list">
                                                     @php
-                                                        $apartment_nav = App\Models\Project::where('type', 'completed')->get();
+                                                        $apartment_nav = App\Models\Project::where('type', 'completed')
+                                                            ->orderBy('order_by')
+                                                            ->get();
                                                         $totalProjects = count($apartment_nav);
                                                         $projectsPerList = ceil($totalProjects / 2);
                                                     @endphp
