@@ -984,6 +984,28 @@
 
                                                                                                             </div>
                                                                                                         </div>
+                                                                                                    @else
+                                                                                                        <div class="owl-item active"
+                                                                                                            style="width: 219px; margin-right: 20px;">
+                                                                                                            <div
+                                                                                                                class="gallery-box ">
+
+                                                                                                                <div
+                                                                                                                    class="list-gallery">
+
+                                                                                                                    <div
+                                                                                                                        class="icon-box">
+                                                                                                                        <a aria-hidden="true"
+                                                                                                                            class="text"
+                                                                                                                            style="color: gray !important">
+                                                                                                                            View
+                                                                                                                        </a>
+                                                                                                                    </div>
+
+                                                                                                                </div>
+
+                                                                                                            </div>
+                                                                                                        </div>
                                                                                                     @endif
                                                                                                 </div>
                                                                                             @endforeach
