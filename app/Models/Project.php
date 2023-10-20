@@ -29,6 +29,7 @@ class Project extends Model
         'v_tour',
         'status',
         'order_by',
+        'apartment_type',
     ];
 
     protected $searchableFields = ['*'];

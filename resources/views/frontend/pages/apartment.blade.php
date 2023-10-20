@@ -554,7 +554,7 @@
 
 
                                                     <span class="info-list-item-fixed">
-                                                        Apartment </span>
+                                                        {{ $project->apartment_type }} </span>
 
 
                                                     <span class="info-list-item">
