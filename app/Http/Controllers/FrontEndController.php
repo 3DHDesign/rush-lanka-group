@@ -37,7 +37,7 @@ class FrontEndController extends Controller
     {
         $general = GeneralDetails::first();
         $agents = Agent::where('status', 1)->get();
-        $projects = Project::where('type', 'completed')->where('status', 1)->orderBy('order_by')->select('slug', 'name', 'gallery', 'type', 'heading', 'bedrooms', 'bathrooms', 'sqft')->get();
+        $projects = Project::where('type', 'completed')->where('status', 1)->orderBy('order_by')->select('slug', 'apartment_type', 'name', 'gallery', 'type', 'heading', 'bedrooms', 'bathrooms', 'sqft')->get();
         return view('frontend.pages.apartment', compact('general', 'agents', 'projects'));
     }
 
@@ -45,7 +45,7 @@ class FrontEndController extends Controller
     {
         $general = GeneralDetails::first();
         $agents = Agent::where('status', 1)->get();
-        $projects = Project::where('type', 'ongoing')->where('status', 1)->select('slug', 'name', 'gallery', 'type', 'heading', 'bedrooms', 'bathrooms', 'sqft')->orderBy('order_by')->get();
+        $projects = Project::where('type', 'ongoing')->where('status', 1)->select('slug', 'apartment_type', 'name', 'gallery', 'type', 'heading', 'bedrooms', 'bathrooms', 'sqft')->orderBy('order_by')->get();
         $upProjects = Project::where('type', 'upcomming')->where('status', 1)->orderBy('order_by')->select('name', 'gallery', 'type', 'heading', 'bedrooms')->get();
         return view('frontend.pages.apartment', compact('general', 'agents', 'projects', 'upProjects'));
     }
